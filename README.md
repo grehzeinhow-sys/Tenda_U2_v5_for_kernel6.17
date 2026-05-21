@@ -3,7 +3,9 @@ This driver is an unofficial modification of the driver from the official Tenda 
 
 ## How install
 
+``` bash
 1. cd project_directory
 2. make #for pompile it into .ko files
-3. sudo modprobe aic8800_fdrv # for install it into kernel with dependencies
-
+3. cd ./aic8800_fdrv
+4. sudo modprobe aic8800_fdrv # for install it into kernel with dependencies
+```
